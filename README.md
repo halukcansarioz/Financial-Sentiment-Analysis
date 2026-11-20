@@ -143,6 +143,31 @@ python train.py
 
 ---
 
+# 🌐 Interactive Web Demo
+
+You can run the interactive **FinBERT & LIME** Streamlit web demo locally or deploy it for free on **Streamlit Community Cloud** or **Hugging Face Spaces**.
+
+### Run Locally
+
+```bash
+pip install -r requirements-demo.txt
+streamlit run app.py
+```
+
+### Deploy for Free
+
+- **Streamlit Community Cloud:**
+  1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+  2. Click **New app**, select `halukcansarioz/Financial-Sentiment-Analysis` (`main` branch), and set **Main file path** to `app.py`.
+  3. Click **Deploy!** (specify `requirements-demo.txt` or copy its dependencies to `requirements.txt`).
+
+- **Hugging Face Spaces:**
+  1. Create a new Space on [huggingface.co/spaces](https://huggingface.co/spaces) and select **Streamlit** as the Space SDK.
+  2. Upload `app.py` and `requirements-demo.txt` (rename to `requirements.txt` in the Space).
+  3. The app will build and launch automatically.
+
+---
+
 # 📂 Project Structure
 
 ```text
