@@ -97,7 +97,7 @@ This project combines multiple financial sentiment datasets and evaluates both t
 
 # ⚙️ Installation
 
-### Clone Repository
+### Clone Repository 
 
 ```bash
 git clone https://github.com/halukcansarioz/Financial-Sentiment-Analysis.git
