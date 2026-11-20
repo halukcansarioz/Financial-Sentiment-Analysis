@@ -49,6 +49,21 @@ This project combines multiple financial sentiment datasets and evaluates both t
 - FinBERT fine-tuning
 - Explainable AI analysis
 
+## Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A[Financial Text Datasets] --> B[Text Preprocessing & TF-IDF]
+    B --> C[ML Classification Models]
+    B --> D[FinBERT Transformer]
+    C --> E[Sentiment Prediction]
+    D --> E
+    E --> F[LIME Explainable AI XAI]
+```
+
+---
+
+
 ---
 
 # ✨ Features
